@@ -1,0 +1,56 @@
+---
+name: "许子骏"
+tel: "18868111514"
+email: vm3y3rmp40719@gmail.com
+github_link: https://github.com/Oscarshu0719
+github: Oscarshu0719
+education:
+- school: "浙江大学 (Zhejiang University)"
+  degree: "计算机科学与技术 工学士"
+  where: "中国浙江省杭州市"
+  when: "2016年9月 - 2020年6月（预计）"
+awards:
+- title: "一等奖"
+  subtitle: "中国高校计算机大赛移动应用创新赛"
+  where: "中国浙江省杭州市"
+  when: "2018年9月"
+- title: "金奖"
+  subtitle: "第四届中国“互联网+”大学生创新创业大赛"
+  where: "中国浙江省杭州市"
+  when: "2018年9月"
+- title: "优秀"
+  subtitle: "本科生科研训练与学科竞赛 (SRTP)（国创-创新训练）"
+  where: "中国浙江省杭州市"
+  when: "2018年4月 - 2019年5月"
+experiences:
+- title: "本科生科研训练与学科竞赛 (SRTP)（国创-创新训练）"
+  subtitle: "浙江大学"
+  list:
+  - "与团队合作利用PyTorch库实现变分自编码器 (Variational autoencoder, VAE) 和生成对抗网络 (Generative Adversarial Network, GAN) 结合，用于生成连贯多和弦的 (coherent symbolic polyphonic) MIDI音乐，完成自动作曲系统。"
+  - "将训练数据输入编码器 (Encoder) 产生潜在向量 (Latent vector) ，并输入生成网络 (Generator) 产生音乐，最终将生成的音乐输入鉴别网络 (Discriminator) 训练。"
+  - "改良了变分自编码器有利于提取和弦，以及使用不同于一般的生成对抗网络，改用WGAN-GP (Improved Training of Wasserstein GANs)，解决了一般生成对抗网络中模式崩溃 (Mode collapse)、梯度消失 (Vanishing gradient problem) 和部分音轨效果较差等问题。"
+  - "利用Keras库实现卷积神经网络 (Convolutional Neural Network, CNN) 完成光学字元辨识 (Optical Character Recognition, OCR) 识别乐谱。"
+  - "我在本项目的工作主要是实现WGAN-GP中鉴别网络的相关功能以及完成光学字元辨识大部分的工作。"
+  where: "中国浙江省杭州市"
+  when: "2018年4月 - 2019年5月"
+projects:
+- title: 'miniSQL'
+  content: '与团队共同完成。实现小型结构化查询语言 (Structured Query Language, SQL)，我在本项目的工作是利用Java实现B+树 (B+ tree)，完成存储的部分。'
+  when: '2018年6月'
+- title: '课程系统'
+  content: '个人独自完成。利用Linux Bash，实现简易课程系统。'
+  when: '2018年8月'
+- title: '三维重建 (3D reconstruction)'
+  content: '个人独自完成。利用Matlab在不调用库情况下，通过传统理论，如基础矩阵 (Fundamental matrix)，实矩阵 (Essential matrix) 等相关理论，实现三维重建。'
+  when: '2019年5月'
+- title: 'Lines of Action'
+  content: '个人独自完成。利用Python在不调用库情况下，实现蒙特卡罗树搜索 (Monte Carlo Tree Search, MCTS) 作为对手搜索最有可能获胜的下棋位置，完成集结棋游戏 (Lines of Action, LOA)，并利用PyQt实现图形界面。'
+  when: '2019年6月'
+- title: 'C-minus 编译器'
+  content: '与团队共同完成。实现一种小型类C (C-like) 语言，主要流程：词法分析 (Lexical analysis)，语法分析 (Syntactic analysis)，生成中间代码 (Intermediate code generation)，优化 (Optimization)，生成目标代码 (Target code generation)。其中中间代码以三位址码 (Three address code) 描述，用四元组 (Quadruple) 方式存储；目标代码是x86汇编语言 (x86 Assembly language)。我在本项目的工作主要是实现中间代码及其优化，以及生成目标代码。'
+  when: '2019年6月'
+skills:
+- Python, C, Java, Matlab, Bash, SQL
+- Qt, OpenCV, Keras, PyTorch
+- LaTeX, Git
+...

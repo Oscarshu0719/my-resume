@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><?= $content['name'] ?></title>
+    <style><?= require_once './css/reset.css' ?></style>
+    <style><?= require_once './css/style.css' ?></style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="personal-information">
+            <div>
+                <div class="w10"></div>
+                <div class="w80 text-center">
+                    <h1 id="name"><?= $content['name'] ?></h1>
+                    <span class="text-secondary"><?= $content['address'] ?></span>
+                    <div>
+                    <?= $title['tel'] ?>: <?= $content['tel'] ?>
+                    <br>
+                    <?= $title['email'] ?>: <a href="mailto:<?= $content['email'] ?>"><?= $content['email'] ?></a>
+                    <br>
+                    <?= $title['github'] ?>: <a href="<?= $content['github_link'] ?>"><?= $content['github'] ?></a>
+                    </div>
+                </div>
+                <div class="w10 text-right">
+                    <img src="imgs/hsu-tzu-chun.JPG" style="width: 70pt;" />
+                </div>
+            </div>
+            <div class="block">
+                <div class="block-header">
+                    <div class="block-left">
+                        <h2 class="block-header-text"><?= $title['education'] ?></h2>
+                    </div>
+                    <div class="block-right">
+                        <h2 class="block-header-text">&nbsp;</h2>
+                    </div>
+                </div>
+                <?php foreach ($content['education'] as $education): ?>
+                <div class="block-element">
+                    <div class="block-left">
+                        <h3 class="block-title"><?= $education['school'] ?></h3>
+                        <h4 class="block-subtitle"><?= $education['degree'] ?></h4>
+                    </div>
+                    <div class="block-right">
+                        <span><?= $education['where'] ?></span>
+                        <br>
+                        <span><?= $education['when'] ?></span>
+                    </div>
+                </div>
+				<div class="block-footer"></div>
+                <?php endforeach ?>
+            </div>
+
+            <?php if (isset($content['publication'])): ?>
+            <div class="block">
+                <div class="block-header">
+                    <div class="block-full">
+                        <h2 class="block-header-text"><?= $title['publication'] ?></h2>
+                    </div>
+                </div>
+                <div class="block-element">
+                    <div class="block-full">
+                        <ul>
+                            <?php foreach ($content['publication'] as $publication): ?>
+                            <li>
+                                <span>
+                                    <?= $publication['title'] ?>
+                                </span>
+                                <br>
+                                <span class="text-secondary">
+                                    <?= $publication['content'] ?>
+                                </span>
+                            </li>
+                            <?php endforeach ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <?php endif ?>
+
+            <div class="block">
+                <div class="block-header">
+                    <div class="block-left">
+                        <h2 class="block-header-text"><?= $title['awards'] ?></h2>
+                    </div>
+                    <div class="block-right">
+                        <h2 class="block-header-text">&nbsp;</h2>
+                    </div>
+                </div>
+                <?php foreach ($content['awards'] as $award): ?>
+                <div class="block-element">
+                    <div class="block-left">
+                        <h3 class="block-title"><?= $award['title'] ?></h3>
+                        <h4 class="block-subtitle"><?= $award['subtitle'] ?></h4>
+                    </div>
+                    <div class="block-right">
+                        <span><?= $award['where'] ?></span>
+                        <br>
+                        <span><?= $award['when'] ?></span>
+                    </div>
+                </div>
+				<div class="block-footer"></div>
+                <?php endforeach ?>
+            </div>
+
+            <div class="block">
+                <div class="block-header">
+                    <div class="block-left">
+                        <h2 class="block-header-text"><?= $title['experience'] ?></h2>
+                    </div>
+                    <div class="block-right">
+                        <h2 class="block-header-text">&nbsp;</h2>
+                    </div>
+                </div>
+                <?php foreach ($content['experiences'] as $experience): ?>
+                <div class="block-element">
+                    <div class="block-left">
+                        <h3 class="block-title"><?= $experience['title'] ?></h3>
+                        <h4 class="block-subtitle"><?= $experience['subtitle'] ?></h4>
+                        <ul>
+                            <?php foreach ($experience['list'] as $e): ?>
+                            <li><?= $e ?></li>
+                            <?php endforeach ?>
+                        </ul>
+                    </div>
+                    <div class="block-right">
+                        <span><?= $experience['where'] ?></span>
+                        <br>
+                        <span><?= $experience['when'] ?></span>
+                    </div>
+                </div>
+				<div class="block-footer"></div>
+                <?php endforeach ?>
+            </div>
+
+            <div class="block">
+                <div class="block-header">
+                    <div class="block-left">
+                        <h2 class="block-header-text"><?= $title['projects'] ?></h2>
+                    </div>
+                    <div class="block-right">
+                        <h2 class="block-header-text">&nbsp;</h2>
+                    </div>
+                </div>
+                <?php foreach ($content['projects'] as $project): ?>
+                <div class="block-element">
+                    <div class="block-left">
+                        <h3 class="block-title"><?= $project['title'] ?></h3>
+                        <h4 class="block-subtitle"><?= $project['content'] ?></h4>
+                    </div>
+                    <div class="block-right">
+                        <span><?= $project['when'] ?></span>
+                    </div>
+                </div>
+				<div class="block-footer"></div>
+                <?php endforeach ?>
+            </div>
+
+            <div class="block">
+                <div class="block-header">
+                    <div class="block-full">
+                        <h2 class="block-header-text"><?= $title['skills'] ?></h2>
+                    </div>
+                </div>
+                <div class="block-element">
+                    <div class="block-full">
+                        <ul>
+                            <?php foreach ($content['skills'] as $e): ?>
+                            <li><?= $e ?></li>
+                            <?php endforeach ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+---
+name: "許子駿"
+tel: "台灣 - (+886) 0901166526, 中國 - (+86) 18868111514"
+email: vm3y3rmp40719@gmail.com
+github_link: https://github.com/Oscarshu0719
+github: Oscarshu0719
+education:
+- school: "浙江大學 (Zhejiang University)"
+  degree: "計算機科學與技術 工學士"
+  where: "中國浙江省杭州市"
+  when: "2016年9月 - 2020年6月（預計）"
+awards:
+- title: "一等獎"
+  subtitle: "中國高校計算機大賽移動應用創新賽"
+  where: "中國浙江省杭州市"
+  when: "2018年9月"
+- title: "金獎"
+  subtitle: "第四屆中國“互聯網+”大學生創新創業大賽"
+  where: "中國浙江省杭州市"
+  when: "2018年9月"
+- title: "優秀"
+  subtitle: "本科生科研訓練與學科競賽（國創-創新訓練）"
+  where: "中國浙江省杭州市"
+  when: "2018年4月 - 2019年5月"
+experiences:
+- title: "本科生科研訓練與學科競賽（國創-創新訓練）"
+  subtitle: "浙江大學"
+  list:
+  - "與團隊合作利用PyTorch庫實現變分自編碼器 (Variational autoencoder, VAE) 和生成對抗網路 (Generative Adversarial Network, GAN) 結合，用於生成連貫多和弦的 (coherent symbolic polyphonic) MIDI音樂，完成自動作曲系統。"
+  - "將訓練資料輸入編碼器 (Encoder) 產生潛在向量 (Latent vector) ，並輸入生成網路 (Generator) 產生音樂，最終將生成的音樂輸入鑑別網路 (Discriminator) 訓練。"
+  - "改良了變分自編碼器有利於提取和弦，以及使用不同於一般的生成對抗網路，改用WGAN-GP (Improved Training of Wasserstein GANs)，解決了一般生成對抗網路中模式崩潰 (Mode collapse)、梯度消失 (Vanishing gradient problem) 和部分音軌效果較差等問題。"
+  - "利用Keras庫實現卷積神經網路 (Convolutional Neural Network, CNN) 完成光學字元辨識 (Optical Character Recognition, OCR) 識別樂譜。"
+  - "我在本專題的貢獻主要是實現WGAN-GP中鑑別網路的相關功能以及完成光學字元辨識大部分的工作。"
+  where: "中國浙江省杭州市"
+  when: "2018年4月 - 2019年5月"
+projects:
+- title: 'miniSQL'
+  content: '與團隊共同完成。實現小型結構化查詢語言 (Structured Query Language, SQL)，我在本專題的貢獻是利用Java實現B+樹 (B+ tree)，完成儲存的部分。'
+  when: '2018年6月'
+- title: '課程系統'
+  content: '個人獨自完成。利用Linux Bash，實現課程系統。'
+  when: '2018年8月'
+- title: '三維重建 (3D reconstruction)'
+  content: '個人獨自完成。利用Matlab，且不調用函式庫，通過傳統理論，如基礎矩陣 (Fundamental matrix)，本質矩陣 (Essential matrix) 等相關理論，實現三維重建。'
+  when: '2019年5月'
+- title: 'Lines of Action'
+  content: '個人獨自完成。利用Python，且不調用函式庫，實現蒙地卡羅樹搜尋 (Monte Carlo Tree Search, MCTS) 作為對手用於搜尋最有可能獲勝的下棋位置，完成集結棋遊戲 (Lines of Action, LOA)，另外利用PyQt庫實現圖形介面。'
+  when: '2019年6月'
+- title: 'C-minus 編譯器'
+  content: '與團隊共同完成。實現一種小型類C (C-like) 語言，主要流程：詞法分析 (Lexical analysis)，語法分析 (Syntactic analysis)，產生中間語言 (Intermediate code generation)，優化 (Optimization)，產生目標語言 (Target code generation)。其中中間語言以三位址碼 (Three address code) 描述，用四元組 (Quadruple) 方式儲存；目標語言是x86組合語言 (x86 Assembly language)。我在本專題的貢獻主要是實現中間語言及其優化，以及產生目標語言。'
+  when: '2019年6月'
+skills:
+- Python, C, Java, Matlab, Bash, SQL
+- Qt, OpenCV, Keras, PyTorch
+- LaTeX, Git
+...
