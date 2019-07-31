@@ -1,6 +1,11 @@
 clean:
 	rm resume-*.pdf
 	rm resume-*.md
+	
+all:
+	make en
+	make zh-tw
+	make zh-cn
 
 en:
 	php build_md.php en > resume-en.md

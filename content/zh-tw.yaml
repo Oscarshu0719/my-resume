@@ -22,6 +22,10 @@ awards:
   subtitle: "本科生科研訓練與學科競賽（國創-創新訓練）"
   where: "中國浙江省杭州市"
   when: "2018年4月 - 2019年5月"
+- title: "三等獎"
+  subtitle: "港澳台獎學金"
+  where: "中國浙江省杭州市"
+  when: "2018年9月"
 experiences:
 - title: "本科生科研訓練與學科競賽（國創-創新訓練）"
   subtitle: "浙江大學"
@@ -50,7 +54,7 @@ projects:
   content: '與團隊共同完成。實現一種小型類C (C-like) 語言，主要流程：詞法分析 (Lexical analysis)，語法分析 (Syntactic analysis)，產生中間語言 (Intermediate code generation)，優化 (Optimization)，產生目標語言 (Target code generation)。其中中間語言以三位址碼 (Three address code) 描述，用四元組 (Quadruple) 方式儲存；目標語言是x86組合語言 (x86 Assembly language)。我在本專題的貢獻主要是實現中間語言及其優化，以及產生目標語言。'
   when: '2019年6月'
 skills:
-- Python, C, Java, Matlab, Bash, SQL
+- Python, C, Java, Matlab, JavaScript, Bash, SQL
 - Qt, OpenCV, Keras, PyTorch
 - LaTeX, Git
 ...

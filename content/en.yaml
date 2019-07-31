@@ -22,6 +22,10 @@ awards:
   subtitle: "College Students' Innovative Entrepreneurial Training Plan Program"
   where: "Hangzhou, Zhejiang, China"
   when: "Apr.2018 - May.2019"
+- title: "Third Prize"
+  subtitle: "Hong Kong, Macau, and Taiwan student scholarship"
+  where: "Hangzhou, Zhejiang, China"
+  when: "Sep.2018"
 experiences:
 - title: "College Students' Innovative Entrepreneurial Training Plan Program"
   subtitle: "Zhejiang University"
@@ -50,7 +54,7 @@ projects:
   content: 'Teamwork. Our team implemented a simple C-like language. The steps include lexical analysis, syntactic analysis, intermediate code generation, optimization, and target code generation. The intermediate code is described by three address code and saves as quadruple. The target code is x86 assembly language. In this project, I implemented intermediate code generation, optimization, and target code generation by Java.'
   when: 'Jun.2019'
 skills:
-- Python, C, Java, Matlab, Bash, SQL
+- Python, C, Java, Matlab, JavaScript, Bash, SQL
 - Qt, OpenCV, Keras, PyTorch
 - LaTeX, Git
 ...
