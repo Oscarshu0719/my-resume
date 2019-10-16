@@ -53,6 +53,9 @@ projects:
 - title: 'C-minus 編譯器'
   content: '與團隊共同完成。實現一種小型類C (C-like) 語言，主要流程：詞法分析 (Lexical analysis)，語法分析 (Syntactic analysis)，產生中間語言 (Intermediate code generation)，優化 (Optimization)，產生目標語言 (Target code generation)。其中中間語言以三位址碼 (Three address code) 描述，用四元組 (Quadruple) 方式儲存；目標語言是x86組合語言 (x86 Assembly language)。我在本專題的貢獻主要是實現中間語言及其優化，以及產生目標語言。'
   when: '2019年6月'
+- title: '股票交易系統'
+  content: '與團隊共同完成。利用NodeJS，Python和MySQL實現B/S架構的股票交易系統。我在本專題中利用Python及其Flask包實現資金帳戶的資料庫操作。'
+  when: '2019年6月'
 skills:
 - Python, C, Java, Matlab, JavaScript, Bash, SQL
 - Qt, OpenCV, Keras, PyTorch

@@ -32,14 +32,14 @@ experiences:
   list:
   - "Our team implemented Variational autoencoder (VAE) and Generative Adversarial Network (GAN) as an automatic music composition system by PyTorch, and the output is a piece of coherent symbolic polyphonic (MIDI) music."
   - "First, Input training data to Encoder and it generates latent vectors. Second, Input the latent vectors to Generator to generate a piece of music. Finally, input the generated music to Discriminator to train."
-  - "Improve VAE on our own so that the new VAE can be easier to extract chords. Additionally, we also use GAN-GP (Improved Training of Wasserstein GANs) to solve the classic problems of GAN, like mode collapse problem, vanishing gradient problem, and bad results of some audio tracks."
+  - "Improve VAE on our own so that the new VAE can be easier to extract chords. Additionally, we also use WGAN-GP (Improved Training of Wasserstein GANs) to solve the classic problems of GAN, like mode collapse problem, vanishing gradient problem, and bad results of some audio tracks."
   - "We implemented an Optical Character Recognition (OCR) application by Convolutional Neural Network (CNN) with Keras, and it's used to recognize music notes from input images."
   - "In this project, I implemented the relative functions of the Discriminator in WGAN-GP and most parts of the OCR."
   where: "Hangzhou, Zhejiang, China"
   when: "Apr.2018 - May.2019"
 projects:
 - title: 'miniSQL'
-  content: 'Teamwork. Our team implemented a simple Structured Query Language (SQL). In this project, I implemented the storage part by B+ tree with Java.'
+  content: 'Teamwork. Our team implemented a simple Structured Query Language (SQL). In this project, I implemented the storage part by B+ tree by Java.'
   when: 'Jun.2018'
 - title: 'Homework management system'
   content: 'Individual work. I implemented a simple homework management system by Linux Bash.'
@@ -52,6 +52,9 @@ projects:
   when: 'Jun.2019'
 - title: 'C-minus compiler'
   content: 'Teamwork. Our team implemented a simple C-like language. The steps include lexical analysis, syntactic analysis, intermediate code generation, optimization, and target code generation. The intermediate code is described by three address code and saves as quadruple. The target code is x86 assembly language. In this project, I implemented intermediate code generation, optimization, and target code generation by Java.'
+  when: 'Jun.2019'
+- title: 'Stock trading system'
+  content: 'Teamwork. Our team implemented a stock trading system of B/S architecture by NodeJS, Python and MySQL. In this project, I implemented database operations of funds account by Python and its package, Flask.'
   when: 'Jun.2019'
 skills:
 - Python, C, Java, Matlab, JavaScript, Bash, SQL
