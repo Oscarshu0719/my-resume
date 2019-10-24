@@ -37,6 +37,14 @@ experiences:
   - "我在本项目的工作主要是实现WGAN-GP中鉴别网络的相关功能以及完成光学字元辨识大部分的工作。"
   where: "中国浙江省杭州市"
   when: "2018年4月 - 2019年5月"
+- title: "英属哥伦比亚大学暑期项目 Vancouver Summer Program (VSP)"
+  subtitle: "英属哥伦比亚大学"
+  list: 
+  - "本项目是一个为期四周的暑期项目，总共参与两门课程。"
+  - "这两门课程分别是'Algorithms and the World Wide Web'和'Building Modern Web Applications'，两门课程均为39学时，都由英属哥伦比亚大学的教师教授。"
+  - "我享受和组员共同完成实验的过程，同时体验英属哥伦比亚大学良好的学习风气。"
+  where: "加拿大不列颠哥伦比亚省温哥华"
+  when: "2019年7月 - 2019年8月"  
 projects:
 - title: 'miniSQL'
   content: '与团队共同完成。实现小型结构化查询语言 (Structured Query Language, SQL)，我在本项目的工作是利用Java实现B+树 (B+ tree)，完成存储的部分。'

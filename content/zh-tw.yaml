@@ -37,6 +37,14 @@ experiences:
   - "我在本專題的貢獻主要是實現WGAN-GP中鑑別網路的相關功能以及完成光學字元辨識大部分的工作。"
   where: "中國浙江省杭州市"
   when: "2018年4月 - 2019年5月"
+- title: "英屬哥倫比亞大學暑期課程 Vancouver Summer Program (VSP)"
+  subtitle: "英屬哥倫比亞大學"
+  list: 
+  - "本課程為期四周，由兩門課程組成。"
+  - "這兩門課程分別是'Algorithms and the World Wide Web'和'Building Modern Web Applications'，兩門課程均為39小時，都由英屬哥倫比亞大學的教師教授。"
+  - "我享受和組員共同完成專題的過程，同時體驗英屬哥倫比亞大學良好的學習風氣。"
+  where: "加拿大英屬哥倫比亞省溫哥華"
+  when: "2019年7月 - 2019年8月"  
 projects:
 - title: 'miniSQL'
   content: '與團隊共同完成。實現小型結構化查詢語言 (Structured Query Language, SQL)，我在本專題的貢獻是利用Java實現B+樹 (B+ tree)，完成儲存的部分。'

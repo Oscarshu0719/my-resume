@@ -37,6 +37,14 @@ experiences:
   - "In this project, I implemented the relative functions of the Discriminator in WGAN-GP and most parts of the OCR."
   where: "Hangzhou, Zhejiang, China"
   when: "Apr.2018 - May.2019"
+- title: "The University of British Columbia (UBC) Vancouver Summer Program (VSP)"
+  subtitle: "The University of British Columbia (UBC)"
+  list: 
+  - "The Vancouver Summer Program (VSP) is an intensive four-week academic program for two courses."
+  - "The two courses are 'Algorithms and the World Wide Web' and 'Building Modern Web Applications', each consisted of 39 contact hours. Both courses were taught by UBC faculty."
+  - "I enjoyed the process of collaborating with my teammates to complete our projects, and experienced the active study atmosphere in UBC."
+  where: "Vancouver, British Columbia, Canada"
+  when: "Jul.2019 - Aug.2019"
 projects:
 - title: 'miniSQL'
   content: 'Teamwork. Our team implemented a simple Structured Query Language (SQL). In this project, I implemented the storage part by B+ tree by Java.'
