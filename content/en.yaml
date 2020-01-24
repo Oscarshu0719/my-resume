@@ -26,6 +26,10 @@ awards:
   subtitle: "Hong Kong, Macau, and Taiwan student scholarship"
   where: "Hangzhou, Zhejiang, China"
   when: "Sep.2018"
+- title: "Second Prize"
+  subtitle: "Hong Kong, Macau, and Taiwan student scholarship"
+  where: "Hangzhou, Zhejiang, China"
+  when: "Dec.2019"
 experiences:
 - title: "College Students' Innovative Entrepreneurial Training Plan Program"
   subtitle: "Zhejiang University"
@@ -64,8 +68,11 @@ projects:
 - title: 'Stock trading system'
   content: 'Teamwork. Our team implemented a stock trading system of B/S architecture by NodeJS, Python and MySQL. In this project, I implemented database operations of funds account by Python and its package, Flask.'
   when: 'Jun.2019'
+- title: 'Security alarm map'
+  content: 'Teamwork. Our team implemented a Android application, and Android is used for front-end and Python is used for back-end. I participated in part of work of front-end and implemented all APIs of back-end by Flask.'
+  when: 'Nov.2019'
 skills:
-- Python, C, Java, Matlab, JavaScript, Bash, SQL
+- Python, C, Java, Matlab, Android, JavaScript, Bash, SQL
 - Qt, OpenCV, Keras, PyTorch
 - LaTeX, Git
 ...

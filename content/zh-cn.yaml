@@ -26,6 +26,10 @@ awards:
   subtitle: "港澳台奖学金"
   where: "中国浙江省杭州市"
   when: "2018年9月"
+- title: "二等奖"
+  subtitle: "港澳台奖学金"
+  where: "中国浙江省杭州市"
+  when: "2019年12月"
 experiences:
 - title: "本科生科研训练与学科竞赛 (SRTP)（国创-创新训练）"
   subtitle: "浙江大学"
@@ -64,8 +68,11 @@ projects:
 - title: '股票交易系统'
   content: '与团队共同完成。利用NodeJS，Python和MySQL实现B/S架构的股票交易系统。我在本项目中利用Python及其Flask包实现资金账户的数据库操作。'
   when: '2019年6月'
+- title: '安全警示地图'
+  content: '与团队共同完成。利用Android写手机前端，后端由Python实现。我在本项目中利用Android完成部分前端工作，以及利用Flask完成所有后端接口。'
+  when: '2019年11月'
 skills:
-- Python, C, Java, Matlab, JavaScript, Bash, SQL
+- Python, C, Java, Matlab, Android, JavaScript, Bash, SQL
 - Qt, OpenCV, Keras, PyTorch
 - LaTeX, Git
 ...

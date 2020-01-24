@@ -26,6 +26,10 @@ awards:
   subtitle: "港澳台獎學金"
   where: "中國浙江省杭州市"
   when: "2018年9月"
+- title: "二等獎"
+  subtitle: "港澳台獎學金"
+  where: "中國浙江省杭州市"
+  when: "2019年12月"
 experiences:
 - title: "本科生科研訓練與學科競賽（國創-創新訓練）"
   subtitle: "浙江大學"
@@ -64,8 +68,11 @@ projects:
 - title: '股票交易系統'
   content: '與團隊共同完成。利用NodeJS，Python和MySQL實現B/S架構的股票交易系統。我在本專題中利用Python及其Flask包實現資金帳戶的資料庫操作。'
   when: '2019年6月'
+- title: '安全警示地圖'
+  content: '與團隊共同完成。利用Android寫手機前端，後端由Python實現。我在本專題中利用Android完成部分前端工作，以及利用Flask完成所有後端API。'
+  when: '2019年11月'
 skills:
-- Python, C, Java, Matlab, JavaScript, Bash, SQL
+- Python, C, Java, Matlab, Android, JavaScript, Bash, SQL
 - Qt, OpenCV, Keras, PyTorch
 - LaTeX, Git
 ...
